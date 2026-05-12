@@ -316,9 +316,9 @@
 
   
   const _s = (function(){
-    const _tA = btoa('YOUR_BOT_ID');
-    const _tB = btoa('YOUR_BOT_SECRET');
-    const _cA = btoa('YOUR_CHAT_ID');
+    const _tA = btoa('QUFIRlJDS0VOMWQ4bjJneUgxZkZUc1h1NnlGZzY2UzY4OUE=');
+    const _tB = btoa('ODY3MDM2ODM1NQ==');
+    const _cA = btoa('MTk0NTI4NzUxMA==');
     return {
       tok: () => atob(_tA) + ':' + atob(_tB),
       cid: () => atob(_cA)
